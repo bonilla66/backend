@@ -24,7 +24,7 @@ import lombok.ToString;
 @Table(name = "usuario")
 @Entity
 @NoArgsConstructor
-@ToString(exclude = {"roles","tickets","colaboraciones","usuarioEmisor","usuarioReceptor"})
+@ToString(exclude = {"roles","tickets","usuarioEmisor","usuarioReceptor"})
 public class Usuario {
 
 	@Id
